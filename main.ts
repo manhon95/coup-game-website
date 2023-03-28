@@ -1,17 +1,14 @@
 import express, { Request, Response } from "express";
-import * as game from "./game";
 
 const app = express();
 
-app.use(express.static("/Public"));
+app.use(express.static("Public"));
 
 app.get("/Start", function (req: Request, res: Response) {});
 
 app.get("/Income", function (req: Request, res: Response) {});
 
-app.get("/ForeignAid", function (req: Request, res: Response) {
-  game.handleForeignAid();
-});
+app.get("/ForeignAid", function (req: Request, res: Response) {});
 app.get("/Coup", function (req: Request, res: Response) {});
 app.get("/Tax", function (req: Request, res: Response) {});
 app.get("/Assassinate", function (req: Request, res: Response) {});

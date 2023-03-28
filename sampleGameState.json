@@ -1,0 +1,11 @@
+{
+  "gameId": "",
+  "playerList": "",
+  "playerIdList": "",
+  "activePlayerIndex": "",
+  "gameState": "",
+  "action": {
+    "actionId": "",
+    "actionState": ""
+  }
+}
